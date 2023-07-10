@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { ProductContext } from '../contexts/ProductContext';
 import Product from "../components/Product"
+import Sidebar from '../components/Sidebar';
 const Home = () => {
   //get products from product context
  const {products}=useContext(ProductContext);
@@ -24,6 +25,7 @@ const Home = () => {
       </div> 
 
     </section>
+  
   </div>;
 };
 
